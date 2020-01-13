@@ -1,0 +1,19 @@
+{
+  "name": "gportfolio",
+  "version": "1.0.0",
+  "description": "Glaiza's Portfolio 2019",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinkful-ei-heron/Glaiza-Portfolio.git"
+  },
+  "author": "Glaiza E. Wagner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thinkful-ei-heron/Glaiza-Portfolio/issues"
+  },
+  "homepage": "https://github.com/thinkful-ei-heron/Glaiza-Portfolio#readme"
+}
