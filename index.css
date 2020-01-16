@@ -567,7 +567,7 @@ body {
     background-color:var(--color-primary-medium);
     color: white;
     padding: 0;
-    margin-top: 2rem;;
+    margin-top: 2rem;
     display: inline-block;
     font-size: 1rem;
     font-weight: 600;
@@ -754,6 +754,10 @@ body {
 
     .btn {
             margin: 0 2%;
+    }
+
+    a.btn.btn-blue.btn-animated {
+        padding: .8rem;
     }
 }  
 
