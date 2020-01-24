@@ -564,7 +564,7 @@ i {
 }
 
 .navi-items {
-    width: 38%;
+    width: 55%;
     margin: auto;
     flex: 1 0;
 }
@@ -662,6 +662,10 @@ i {
     .fa-linkedin:hover, .fa-github-square:hover, .fa-envelope:hover {
         color: rgba(0,0,102,1);
         font-size: 3.5rem;
+    }
+
+    .navi-items {
+        width: 35%;
     }
 }
 
@@ -787,6 +791,10 @@ i {
     .navigation__icon, .navigation__icon::before, .navigation__icon::after {
         width: 3rem;
         height: 2px;
+    }
+
+    .navi-items {
+        width: 27%;
     }
 
 }
