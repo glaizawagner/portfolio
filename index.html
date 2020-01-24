@@ -20,12 +20,14 @@
         </label>
         
         <div class="navigation__background">&nbsp;</div>
-            <nav class="navigation__nav">
+            <nav class="navigation__nav"  >
                 <ul class="navigation__list">
-                    <li class="navigation__item"><a href="#section-about" class="navigation__link" target="#section-about"><span>01</span>About Me</a></li>
-                    <li class="navigation__item"><a href="#section-projects" class="navigation__link" target="#section-projects"><span>02</span>Projects</a></li>
-                    <li class="navigation__item"><a href="https://drive.google.com/file/d/1Jz7H3iewEy_mNAkiQc2VQbi8qyvvvWul/view?usp=sharing" class="navigation__link" target="_blank"><span>03</span>Resume</a></li>
-                    <li>_________________________</li>
+                    <li class="navigation__item navi-items" ><a href= "#header" class="navigation__link"><span>01</span>Home</a></li>
+                    <li class="navigation__item navi-items"><a href= "#section-about" class="navigation__link"><span>02</span>About</a></li>
+                    <li class="navigation__item navi-items"><a href="#section-projects" class="navigation__link"><span>03</span>Projects</a></li>
+                    <li class="navigation__item navi-items"><a href="https://drive.google.com/file/d/1Jz7H3iewEy_mNAkiQc2VQbi8qyvvvWul/view?usp=sharing" class="navigation__link" target="_blank"><span>04</span>Resume</a></li>
+                   
+                    <li class="nav_contact">_________________________</li>
                     <li class="navigation__contact"><a href="https://www.linkedin.com/in/glaizawagner" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                     <li class="navigation__contact"><a href="https://github.com/glaizawagner" target="_blank"><i class="fab fa-github-square"></i></a></li>
                     <li class="navigation__contact"><a href="mailto:glaizawagner@gmail.com"><i class="far fa-envelope"></i></a></li>
@@ -34,9 +36,6 @@
                     <li class="copyright-next">All rights reserved.</li>
                 </ul>
             </nav>
-            <!-- <p class="copyright">
-                &copy;  Glaiza E. Wagner 2019
-            </p> -->
     </div>
     
     <header id="header">
@@ -62,7 +61,7 @@
                     About me
                 </h2>
             </div>
-            <div class="row">
+            <div class="row1">
                 <p class="paragraph u-margin-bottom-small">I began my career as an IT Analyst, moving up to an IT Instructor, and eventually being recruited to work in Singapore as an IT Executive.</p>
                     
                 <p class="paragraph u-margin-bottom-small">I started web developing, without any prior knowledge. My love of creative, intuitive smartphone apps inspired me to take this training to get to a new level and build apps. </p>
@@ -95,16 +94,20 @@
                         <div class="project-box">
                             <h4 class="heading-tertiary">Spaced-repetition</h4>
                             <p class="project-box__text">
-                                  This spaced-repetition project is designed to help users learn twenty LATIN words. It can track users' total scores, correct and incorrect count.Finally, it gives feedback in every answer.
+                                  This spaced-repetition project is designed to help users learn twenty LATIN words. It can track users' total scores, correct and incorrect count. Finally, it gives feedback in every answer.
                             </p>
-                            <img src="./img/srep.png" alt="logo" class="project__logo spacerep__logo">
+                            <img src="./img/spacedRep.png" alt="logo" class="project__logo">
 
-                            <div class="projects-tech"><span><i class="fab fa-html5">HTML </i><i class="fab fa-css3-alt">CSS </i><i class="fab fa-js-square">JS </i><i class="fab fa-react">React </i><i class="fab fa-node-js">Node </i><i class="fas fa-database">PostgreSQL</i><span>Express Cypress Bcryptjs JWT</span></div>
-                                <a href="https://gz-spaced-repetition-app.now.sh/" class="btn btn-blue btn-animated">Live App</a>
-                                <a href="https://github.com/thinkful-ei-heron/spaced-repetition_Zac-Glaiza_client" class="btn btn-blue btn-animated">Client</a>
-                                <a href="https://github.com/thinkful-ei-heron/spaced-repetition_Zac-Glaiza_server" class="btn btn-blue btn-animated">Server</a>
+                            <div class = "spaced-icons"><i class="fab fa-html5" ><span class='techonology'> HTML</span></i><i class="fab fa-css3-alt"><span class='techonology'> CSS</span></i><i class="fab fa-js-square"><span class='techonology'> JS</span></i><i class="fab fa-react"><span class='techonology'> React</span></i><i class="fab fa-node-js"><span class='techonology'> Node</span></i><i class="fas fa-database"><span class='techonology'> PostgreSQL</span></i><span class="technology">Express Cypress Bycryptjs</span></div>
+                            
+                            <div class="projects-tech">
+                                <a href="https://gz-spaced-repetition-app.now.sh/" class="btn btn-blue btn-animated" target="_blank">Live App</a>
+                                <a href="https://github.com/thinkful-ei-heron/spaced-repetition_Zac-Glaiza_client" class="btn btn-blue btn-animated" target="_blank">Client</a>
+                                <a href="https://github.com/thinkful-ei-heron/spaced-repetition_Zac-Glaiza_server" class="btn btn-blue btn-animated" target="_blank">Server</a>
                             </div>
+                        </div>
                     </div>
+                    
                     <!-- Petful App -->
                     <div class="col-1-of-2">
                         <div class="project-box">
@@ -112,14 +115,18 @@
                             <p class="project-box__text">
                                   It is a FIFO Adoption agency that works in a first come, first served basis not only for animals but for people who are interested to adopt.
                             </p>
-                            <img src="./img/petf.png" alt="logo" class="project__logo petful__logo">
+                            <img src="./img/petful.png" alt="logo" class="project__logo petful_logo">
 
-                            <div class="projects-tech"><span><i class="fab fa-html5">HTML </i><i class="fab fa-css3-alt">CSS </i><i class="fab fa-js-square">JS </i><i class="fab fa-react">React </i><i class="fab fa-node-js">Node </i><i class="fas fa-database">PostgreSQL</i><span>Express</span></div>
-                                <a href="https://petful-client-glaiza-wesley.now.sh/" class="btn btn-blue btn-animated">Live App</a>
-                                <a href="https://github.com/thinkful-ei-heron/Petful-server" class="btn btn-blue btn-animated">Client</a>
-                                <a href="" class="btn btn-blue btn-animated">Server</a>
+                            <div><i class="fab fa-html5" ><span class='techonology'> HTML</span></i><i class="fab fa-css3-alt"><span class='techonology'> CSS</span></i><i class="fab fa-js-square"><span class='techonology'> JS</span></i><i class="fab fa-react"><span class='techonology'> React</span></i><i class="fab fa-node-js"><span class='techonology'> Node</span></i><i class="fas fa-database"><span class='techonology'> PostgreSQL</span></i><span class="technology">Express </span></div>
+
+                            <div class="projects-tech">
+                                <a href="https://petful-client-glaiza-wesley.now.sh/" class="btn btn-blue btn-animated" target="_blank">Live App</a>
+                                <a href="https://github.com/glaizawagner/petful-client" class="btn btn-blue btn-animated" target="_blank">Client</a>
+                                <a href="https://github.com/thinkful-ei-heron/Petful-server" class="btn btn-blue btn-animated" target="_blank">Server</a>
                             </div>
+                        </div>
                     </div>
+                    
                     <!-- Bux Influx -->
                     <div class="col-1-of-2">
                         <div class="project-box">
@@ -127,68 +134,81 @@
                             <p class="project-box__text">
                                   Bux Influx is an app that will help users monitor their monthly income and expenses. It can determine if you have exceeded your alloted budget.
                             </p>
-                            <img src="./img/buxinf.png" alt="logo" class="project__logo buxinflux__logo">
+                            <img src="./img/buxinflux.png" alt="logo" class="project__logo bux_logo">
 
-                            <div class="projects-tech"><span><i class="fab fa-html5">HTML </i><i class="fab fa-css3-alt">CSS </i><i class="fab fa-js-square">JS </i><i class="fab fa-react">React </i><i class="fab fa-node-js">Node </i><i class="fas fa-database">PostgreSQL</i><span>Express</span></div>
-                                <a href="https://glaiza-buxinflux-app.now.sh" class="btn btn-blue btn-animated">Live App</a>
-                                <a href="https://github.com/glaizawagner/bux-influx-client" class="btn btn-blue btn-animated">Client</a>
-                                <a href="https://github.com/glaizawagner/bux-influx-server" class="btn btn-blue btn-animated">Server</a>
+                            <div><i class="fab fa-html5" ><span class='techonology'> HTML</span></i><i class="fab fa-css3-alt"><span class='techonology'> CSS</span></i><i class="fab fa-js-square"><span class='techonology'> JS</span></i><i class="fab fa-react"><span class='techonology'> React</span></i><i class="fab fa-node-js"><span class='techonology'> Node</span></i><i class="fas fa-database"><span class='techonology'> PostgreSQL</span></i><span class="technology">Express </span></div>
+                            
+                            <div class="projects-tech">
+                                <a href="https://glaiza-buxinflux-app.now.sh" class="btn btn-blue btn-animated" target="_blank">Live App</a>
+                                <a href="https://github.com/glaizawagner/bux-influx-client" class="btn btn-blue btn-animated" target="_blank">Client</a>
+                                <a href="https://github.com/glaizawagner/bux-influx-server" class="btn btn-blue btn-animated" target="_blank">Server</a>
                             </div>
+                        </div>
                     </div>
+
                     <!-- Noteful App -->
                     <div class="col-1-of-2">
-                        <div class="project-box">
-                            <h4 class="heading-tertiary">Noteful App</h4>
-                            <p class="project-box__text">
-                                  A note taking app that will let you create folders and notes. Each folder can have a lot of notes. When a specific note is clicked, its content will be displayed.
-                            </p>
-                            <img src="./img/notef.png" alt="logo" class="project__logo noteful__logo">
+                            <div class="project-box">
+                                <h4 class="heading-tertiary">Noteful App</h4>
+                                <p class="project-box__text">
+                                    A note taking app that will let you create folders and notes. Each folder can have a lot of notes. When a specific note is clicked, its content will be displayed.
+                                </p>
+                                <img src="./img/notef.png" alt="logo" class="project__logo noteful-logo1">
+                                <img src="./img/noteapp1.png" alt="logo" class="project__logo noteful-logo2">
 
-                            <div class="projects-tech"><span><i class="fab fa-html5">HTML </i><i class="fab fa-css3-alt">CSS </i><i class="fab fa-js-square">JS </i><i class="fab fa-react">React </i><i class="fab fa-node-js">Node </i><i class="fas fa-database">PostgreSQL</i><span>Express</span></div>
-                                <a href="https://glaiza-noteful-app.now.sh" class="btn btn-blue btn-animated">Live App</a>
-                                <a href="https://github.com/thinkful-ei-heron/glaiza-noteful-client" class="btn btn-blue btn-animated">Client</a>
-                                <a href="https://github.com/thinkful-ei-heron/glaiza-noteful-server" class="btn btn-blue btn-animated">Server</a>
+                                <div class = "noteful-icons"><i class="fab fa-html5" ><span class='techonology'> HTML</span></i><i class="fab fa-css3-alt"><span class='techonology'> CSS</span></i><i class="fab fa-js-square"><span class='techonology'> JS</span></i><i class="fab fa-react"><span class='techonology'> React</span></i><i class="fab fa-node-js"><span class='techonology'> Node</span></i><i class="fas fa-database"><span class='techonology'> PostgreSQL</span></i><span class="technology">Express </span></div>
+
+                                <div class="projects-tech">
+                                    <a href="https://glaiza-noteful-app.now.sh" class="btn btn-blue btn-animated" target="_blank">Live App</a>
+                                    <a href="https://github.com/thinkful-ei-heron/glaiza-noteful-client" class="btn btn-blue btn-animated" target="_blank">Client</a>
+                                    <a href="https://github.com/thinkful-ei-heron/glaiza-noteful-server" class="btn btn-blue btn-animated" target="_blank">Server</a>
+                                </div>
                             </div>
                     </div>
-                </div>
-                <!-- Quiz App -->
-                <div class="row">
+                    
+                    <!-- Quiz App -->
                     <div class="col-1-of-2">
                         <div class="project-box">
                             <h4 class="heading-tertiary">Quiz app</h4>
                             <p class="project-box__text">
-                                    A 10 question quiz that will test your knowledge in HTML/CSS and Javascript.
+                                    A 10 question quiz that will test your knowledge in HTML, CSS and Javascript. When a user clicks submit, a random image and a message will show that the user's answer is correct or incorrect.
                             </p>
-                            <img src="./img/quiz.png" alt="logo" class="project__logo">
+                            <img src="./img/quizap.png" alt="logo" class="project__logo quiz-logo">
 
-                            <div class="projects-tech"><span><i class="fab fa-html5">HTML </i><i class="fab fa-css3-alt">CSS </i><i class="fab fa-js-square">JS</i></span></div>
-                            <a href="https://glaizawagner.github.io/Jonny-Glaiza-QuizGame/" class="btn btn-blue btn-animated">Live App</a>
-                            <a href="https://github.com/glaizawagner/Jonny-Glaiza-QuizGame" class="btn btn-blue btn-animated">Github</a>
+                            <div class = "quiz-icons"><i class="fab fa-html5"> HTML</i><i class="fab fa-css3-alt"> CSS</i><i class="fab fa-js-square"> JS</i></div>
 
+                            <div class="projects-tech">
+                                <a href="https://glaizawagner.github.io/Jonny-Glaiza-QuizGame/" class="btn btn-blue btn-animated" target="_blank">Live App</a>
+                                <a href="https://github.com/glaizawagner/Jonny-Glaiza-QuizGame" class="btn btn-blue btn-animated" target="_blank">Github</a>
+                            </div>
                         </div>
-                    </div>
+                    </div> 
+                 
                     <!-- Bookmark app -->
                     <div class="col-1-of-2">
                             <div class="project-box">
                                 <h4 class="heading-tertiary">Bookmark App</h4>
                                 <p class="project-box__text">
-                                    This application allows user to save their favorite bookmarks.
+                                    This application allows a user to save their favorite bookmarks. It will also let a user filter their lists by minimum rating. Using this app will help a user track their saved bookmarks.
                                 </p>
-                                <img src="./img/bookmark.png" alt="logo" class="project__logo">
+                                <img src="./img/bookmarks.png" alt="logo" class="project__logo bookmark-logo">
 
-                                <div class="projects-tech"><span><i class="fab fa-html5">HTML </i><i class="fab fa-css3-alt">CSS </i><i class="fab fa-js-square">JS</i></span></div>
-                                <a href="https://thinkful-ei-heron.github.io/glaiza-bookmark-app/" class="btn btn-blue btn-animated">Live App</a>
-                                <a href="https://github.com/thinkful-ei-heron/glaiza-bookmark-app" class="btn btn-blue btn-animated">Github</a>
+                                <div class = "bookmark-icons"><i class="fab fa-html5"> HTML</i><i class="fab fa-css3-alt"> CSS</i><i class="fab fa-js-square"> JS</i></div>
+
+                                <div class="projects-tech">
+                                    <a href="https://thinkful-ei-heron.github.io/glaiza-bookmark-app/" class="btn btn-blue btn-animated" target="_blank">Live App</a>
+                                    <a href="https://github.com/thinkful-ei-heron/glaiza-bookmark-app" class="btn btn-blue btn-animated" target="_blank">Github</a>
+                                </div>
                             </div>
                     </div>
-                    
                 </div>
+                
             </section>
     
     </main>
 
-    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="index.js"></script> -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="script.js"></script>
     
 </body>
 </html>

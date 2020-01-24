@@ -1,5 +1,8 @@
 ## Glaiza E. Wagner Portfolio.
 
+[Live app](https://glaizawagner.netlify.com/)
+[Github-Repo](https://github.com/glaizawagner/portfolio)
+
 ## About this portolio
 
 This portfolio tells a story about how I started web development. It also consists of the things I am doing during my free time.
