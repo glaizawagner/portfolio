@@ -7,7 +7,7 @@ function close_home() {
         function() {
             this.parentElement.style.display = 'none';
             location.reload();
-            history.go(0);
+            // history.go(0);
         });
     }
 }
