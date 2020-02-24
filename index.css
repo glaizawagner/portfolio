@@ -667,6 +667,18 @@ i {
     .navi-items {
         width: 35%;
     }
+
+    .buxinlfux-proj {
+        padding-top: 5%;
+    }
+
+    .petful-proj {
+        padding-top: 4%;
+    }
+
+    .bookmark-proj {
+        padding-top: 2.3%;
+    }
 }
 
 @media only screen and (min-width: 56.25em) {
@@ -795,6 +807,22 @@ i {
 
     .navi-items {
         width: 27%;
+    }
+
+    .buxinlfux-proj {
+        padding-top: 9%;
+    }
+
+    .spacedrep-proj {
+        padding-top: 9%;
+    }
+
+    .quiz-proj {
+        padding-top: 4%;
+    }
+
+    .petful-proj {
+        padding-top: 10%;
     }
 
 }
